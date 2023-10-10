@@ -1,10 +1,22 @@
 body {
-    height: 100vh;
     margin: 0;
 }
 
-img {
-    width: 400px;
+.container12 img {
+    width: 500px;
+}
+
+.pair img {
+    width: 250px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    border: 0px;
 }
 
 ul {
@@ -12,7 +24,7 @@ ul {
     margin: 0px;
     padding: 0px;
     display: flex;
-    gap: 8px;
+    gap: 12px;
 }
 
 a {
@@ -26,16 +38,30 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
 }
 
 .logo {
     font-size: 24px;
     color: white;
+    margin-right: auto;
+}
+
+.container12 {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.container11 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .hero-main {
     font-size: 48px;
+    width: 400px;
     color: white;
 }
 
@@ -44,8 +70,42 @@ a {
     color: grey;
 }
 
-.modal {
-    
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.container21 {
+    display: flex;
+    justify-content: center;
+}
+
+.pair {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third {
+    background-color: grey;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
 
 .footer {
